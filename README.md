@@ -42,7 +42,7 @@ The repository is organized into the following folders and files:
 - `images`: Sample images to test model implementation on the streamlit application
 - `img`: Images used in the report
 
-## Usag
+## Usage
 
 1. Clone the repository to your local machine.
 2. Download the ChestX-ray dataset and place it in a folder named `images` within the project directory.
