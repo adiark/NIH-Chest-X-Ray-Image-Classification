@@ -9,7 +9,6 @@ This repository contains the code and resources for a chest X-ray image classifi
 3. [Code Structure](#code-structure)
 4. [Usage](#usage)
 5. [Results](#results)
-6. [License](#license)
 
 ## Data
 
@@ -35,7 +34,7 @@ The repository is organized into the following folders and files:
 - `EDA`: Contains the code for Exploratory data analysis, data visualization.
 - `Preprocessing and baseline models`: Contains the code for data preprocesing, normalization, feature extraction using Principal Component Analysis (PCA) and baseline models, Code for evaluating various classifiers, such as SVM, Decision Trees. Hyperparameter tuning and metrics calculation for SVC (final best performing model).
 - `neural_network`: Contains custom CNN with hyperparameter tuning on sub set of data. Around 1000 images per group.
-- `app.py`: Contains a simple user interface using streamlit for end user to upload and test the images for diseases classification. Click here to visit the application page.
+- `app.py`: Contains a simple user interface using streamlit for end user to upload and test the images for diseases classification. Click [here](https://adiark-nih-chest-x-ray-image-classification-app-9g3efy.streamlit.app/) to visit the application page.
 - `requirements.txt`: Requirement files for streamlit application
 - `trained_models`: Contains pickel files for trained SVC models and PCA for the diseases.
 - `data`: Contains image and patient related information for the dataset
