@@ -65,11 +65,11 @@ The methodology includes the following steps:
 
 3. Model Evaluation: Comparing various classifiers, such as SVM and Decision Trees, to identify the best-performing model.
 
-![Effusion Classifier Comparision](img/Effusion_classifier_comparision.png)
+![Effusion Classifier Comparision](img/Effusion_classifier_comparison.png)
 
-![Infiltration Classifier Comparision](img/Infiltration_classifier_comparision.png)
+![Infiltration Classifier Comparision](img/Infiltration_classifier_comparison.png)
 
-![Atelectasis Classifier Comparision](img/Atelectasis_classifier_comparision.png)
+![Atelectasis Classifier Comparision](img/Atelectasis_classifier_comparison.png)
 
 4. Hyperparameter Tuning: Fine-tuning the hyperparameters of the chosen SVC model to optimize its performance.
 5. Result Analysis: Evaluating the model's performance based on accuracy scores and other metrics.
