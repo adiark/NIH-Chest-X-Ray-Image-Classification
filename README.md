@@ -78,15 +78,17 @@ The methodology includes the following steps:
 
 The final SVC model achieved classification accuracy scores of approximately 68% for infiltration, 70% for atelectasis, and 75% for effusion. The project demonstrates the potential of machine learning-based approaches to help medical professionals in identifying and diagnosing chest diseases using X-ray images.
 
-![Effusion Report](img/Classification Report for SVC - Effusion with best parameters_classification_report.png.png)
+![Effusion Report](img/Classification Report for SVC - Effusion with best parameters_classification_report.png)
 
-![Infiltration Report](img/Classification Report for SVC - Infiltration with best parameters_classification_report.png.png)
+![Infiltration Report](img/Classification Report for SVC - Infiltration with best parameters_classification_report.png)
 
-![Atelectasis Report](img/Classification Report for SVC - Atelectasis with best parameters_classification_report.png.png)
+![Atelectasis Report](img/Classification Report for SVC - Atelectasis with best parameters_classification_report.png)
 
 
 Additionally, a custom Convolutional Neural Network (CNN) implementation is included as an alternative approach. The CNN model is trained on a subset of the dataset, with approximately 1000 images per group.
 
 By providing an easy-to-use Streamlit application, this project enables users to test the pretrained models on their own chest X-ray images and obtain classification results for atelectasis, effusion, and infiltration. This user-friendly tool aims to increase the accessibility and applicability of the developed models to real-world scenarios.
+
+![Streamlit Interface](img/streamlit_app_ss.png)
 
 Overall, this project highlights the importance of data preprocessing, feature extraction, and hyperparameter tuning in developing robust and accurate machine learning models for disease classification in chest X-ray images. It contributes to the growing body of research on using artificial intelligence in medical imaging and has the potential to assist medical professionals in providing better diagnosis and treatment to their patients.
