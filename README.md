@@ -1,5 +1,3 @@
-#### NIH-Chest-X-Ray-Image-Classification
-
 # Chest X-ray Image Classification
 
 This repository contains the code and resources for a chest X-ray image classification project. The primary goal of this project is to develop a machine learning tool to identify specific diseases, such as atelectasis, effusion, and infiltration, from chest X-ray images. We used a Support Vector Machine (SVM) classifier with a Linear/RBF kernel (SVC) as our best-performing model and fine-tuned its hyperparameters to optimize its performance.
