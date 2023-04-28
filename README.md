@@ -62,8 +62,6 @@ The methodology includes the following steps:
 2. Data Preprocessing: Cleaning and normalizing the data, followed by feature extraction using PCA.
 
 ![PCA extracted compontent with 90% variance](img/pca.png)
-![PCA extracted compontent with 90% variance](img/pca.png)
-![PCA extracted compontent with 90% variance](img/pca.png)
 
 3. Model Evaluation: Comparing various classifiers, such as SVM and Decision Trees, to identify the best-performing model.
 
