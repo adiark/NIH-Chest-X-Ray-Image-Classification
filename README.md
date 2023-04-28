@@ -76,7 +76,7 @@ The methodology includes the following steps:
 
 ## Results
 
-The final SVC model achieved classification accuracy scores of approximately 68% for infiltration, 70% for atelectasis, and 75% for effusion. The project demonstrates the potential of machine learning-based approaches to help medical professionals in identifying and diagnosing chest diseases using X-ray images.
+The final SVC model achieved classification accuracy scores of approximately 65% for infiltration, 68% for atelectasis, and 75% for effusion. The project demonstrates the potential of machine learning-based approaches to help medical professionals in identifying and diagnosing chest diseases using X-ray images.
 
 ![Effusion Report](img/Classification_Report_Effusion.png)
 
