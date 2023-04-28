@@ -5,3 +5,4 @@ pandas
 scipy
 Pillow
 pickle5
+scikit-learn
