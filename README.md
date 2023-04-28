@@ -2,6 +2,8 @@
 
 This repository presents a machine learning-based approach to classify diseases in chest X-ray images, with a focus on atelectasis, effusion, and infiltration. The project employs a Support Vector Machine (SVM) classifier with a Radial Basis Function (RBF) kernel (SVC) as the primary model and fine-tunes the hyperparameters for optimal performance. The methodology includes data preprocessing, feature extraction, model evaluation, and hyperparameter tuning.
 
+![Sample Images](img/sampleimages.png)
+
 ## Table of Contents
 
 1. [Data](#data)
@@ -14,6 +16,8 @@ This repository presents a machine learning-based approach to classify diseases 
 ## Data
 
 The dataset used in this project is the ChestX-ray dataset, which contains 108,948 frontal-view chest X-ray images of 32,717 unique patients. The dataset can be found [here](https://www.nih.gov/news-events/news-releases/nih-clinical-center-provides-one-largest-publicly-available-chest-x-ray-datasets-scientific-community).
+
+![Label distribution](img/disease_histogram.png)
 
 ## Dependencies
 
@@ -56,13 +60,23 @@ The methodology includes the following steps:
 
 1. Exploratory Data Analysis (EDA): Analyzing the dataset, its distribution, and the relationships between the variables.
 2. Data Preprocessing: Cleaning and normalizing the data, followed by feature extraction using PCA.
+
+![PCA extracted compontent with 90% variance](img/pca.png)
+
 3. Model Evaluation: Comparing various classifiers, such as SVM and Decision Trees, to identify the best-performing model.
+
+![Effusion Classifier Comparision](img/Effusion_classifier_comparision.png)
+![Infiltration Classifier Comparision](img/Infiltration_classifier_comparision.png)
+![Atelectasis Classifier Comparision](img/Atelectasis_classifier_comparision.png)
+
 4. Hyperparameter Tuning: Fine-tuning the hyperparameters of the chosen SVC model to optimize its performance.
 5. Result Analysis: Evaluating the model's performance based on accuracy scores and other metrics.
 
 ## Results
 
 The final SVC model achieved classification accuracy scores of approximately 68% for infiltration, 70% for atelectasis, and 75% for effusion. The project demonstrates the potential of machine learning-based approaches to help medical professionals in identifying and diagnosing chest diseases using X-ray images.
+
+
 
 Additionally, a custom Convolutional Neural Network (CNN) implementation is included as an alternative approach. The CNN model is trained on a subset of the dataset, with approximately 1000 images per group.
 
