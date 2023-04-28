@@ -47,7 +47,7 @@ The repository is organized into the following folders and files:
 2. Download the ChestX-ray8 dataset and place it in a folder named `images` within the project directory.
 3. Install the necessary dependencies.
 4. Run the code for results.
-5. Test the 
+5. Test the pretrained models using streamlit application [here](https://adiark-nih-chest-x-ray-image-classification-app-9g3efy.streamlit.app/) 
 
 ## Results
 
